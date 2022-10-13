@@ -8,6 +8,12 @@
     <title>Galeria</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../assets/img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+    </style>
 </head>
 
 <body>
@@ -31,21 +37,76 @@
             </nav>
         </div>
     </header>
-    <p>
-        <img class="galeria" src="../assets/img/galeria1.jpg" alt="">
-        <img class="galeria" src="../assets/img/galeria2.jpeg" alt="">
-        <img class="galeria" src="../assets/img/galeria3.jpg" alt="">
-        <img class="galeria" src="../assets/img/galeria4.jpg" alt="">
-        <img class="galeria" src="../assets/img/galeria5.jpg" alt="">
-        <img class="galeria" src="../assets/img/galeria6.jpg" alt="">
-    </p>
-    <footer class="footer">
-        <div>
-            Copyright Nicolas Olguin©
-            <br>
-            Pagina sin fines de lucro.
+
+    <span class="linea"></span>
+    <section class="galeria">
+        <a href="#image1">
+            <img src="/assets/img/galeria1.jpg" alt=""></a>
+        <a href="#image2">
+            <img src="/assets/img/galeria2.jpeg" alt=""></a>
+        <a href="#image3">
+            <img src="/assets/img/galeria3.jpg" alt=""></a>
+        <a href="#image4">
+            <img src="/assets/img/galeria4.jpg" alt=""></a>
+        <a href="#image5">
+            <img src="/assets/img/galeria5.jpg" alt=""></a>
+        <a href="#image6">
+            <img src="/assets/img/galeria6.jpg" alt=""></a>
+    </section>
+
+    <article class="light-box" id="image1">
+        <a href="#image6" class="next"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
+        <img src="/assets/img/galeria1.jpg" alt="">
+        <a href="#image2" class="next"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image2">
+        <a href="#image1" class="next"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
+        <img src="/assets/img/galeria2.jpeg" alt="">
+        <a href="#image3" class="next"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image3">
+        <a href="#image2" class="next"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
+        <img src="/assets/img/galeria3.jpg" alt="">
+        <a href="#image4" class="next"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image4">
+        <a href="#image3" class="next"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
+        <img src="/assets/img/galeria4.jpg" alt="">
+        <a href="#image5" class="next"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image5">
+        <a href="#image4" class="next"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
+        <img src="/assets/img/galeria5.jpg" alt="">
+        <a href="#image6" class="next"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image6">
+        <a href="#image5" class="next"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
+        <img src="/assets/img/galeria6.jpg" alt="">
+        <a href="#image1" class="next"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div></div>
+            <p>Pagina interactiva sin fines de lucro</p>   
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>Nicolas Olguin</b> - Todos los Derechos Reservados.</small>
         </div>
     </footer>
-</body>
+<script src="https://kit.fontawesome.com/4aa8f871bb.js" crossorigin="anonymous"></script>
 
 </html>
