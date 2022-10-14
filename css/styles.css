@@ -4,7 +4,9 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      max-width: 1360px;
    }
+   
 
    body {
       background: black;
@@ -46,7 +48,7 @@
 
 
    .menu {
-      width: 1350px;
+      width: 1330px;
       margin: auto;
    }
 
@@ -56,7 +58,9 @@
       font-weight: bold;
       position: relative;
       top: 15px;
+
    }
+
 
    nav ul li a:hover {
       background-color: transparent;
@@ -169,16 +173,28 @@
       right: 0;
    }
 
+   .contenedor-contacto{
+      display: flex;
+      justify-content: space-between;
+      margin: 150px 370px;
+      
+   }
+
+   .contacto {
+      color: white;
+      width: 300px;
+      height: 300px;
+      font-family: sans-serif;
+   }
+
    .caja {
       background-color: rgb(0, 0, 0);
       color:white;
       width: 200px;
-      position: fixed;
-      top: 55px;  
-      left: 0px;
       font-family: sans-serif;
       font-size: 23px;
    }
+
 
 
 .tickets {
