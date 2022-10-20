@@ -96,7 +96,7 @@
       .textoPrincipal {
          color: #efeeee;
          font-family: sans-serif;
-         padding-top: 200px;
+         padding-top: 40px;
          display:flex;
          flex-direction: column;
          justify-content: center;
@@ -106,6 +106,18 @@
          font-size: 18px;
          position: relative;
          z-index: 2;
+      }
+
+      .logoh1 {
+         z-index: 2;
+         padding-top: 100px;
+         display:flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         width: 350px;
+         margin: auto;
+         position: relative;
       }
 
       .linea {
@@ -220,9 +232,44 @@
    }
 
       .portadas {
-         width: 200px
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      width: 95%;
+      margin: auto;
+      grid-gap: 10px;
+      padding: 20px 10px;
+      overflow: hidden;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
       }
 
+      .portadas a {
+         display: block;
+         position: relative;
+         overflow: hidden;
+         box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+         color: white;
+         text-align: center;
+         text-decoration: none;
+         margin: 5px;
+      }
+   
+      .portadas img {
+         width: 100%;
+         vertical-align: top;
+         height: 300px;
+         object-fit: cover;
+      }
+
+       .hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+         -webkit-transform: scale(0.9);
+         transform: scale(0.9);
+       }
 
       .contenedor-contacto{
          display: flex;
@@ -251,6 +298,11 @@
       color: #c11230;
       font-size: 28px;
       list-style-type: none;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
    }
 
    .tickets a {
