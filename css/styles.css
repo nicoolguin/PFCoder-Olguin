@@ -393,7 +393,7 @@
 @media (max-width: 768px) {
 
    nav ul li {
-      font-size: 20px;
+      font-size: 18px;
    }
 
    .menu {
@@ -424,7 +424,7 @@
 @media (max-width: 576px) {
 
    nav ul li {
-      font-size: 20px;
+      font-size: 14px;
    }
 
    .menu {
