@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+
+nav ul li {
+font-size: 18px;
+} 
+.menu {
+display: block;
+width: 100%;
+position: relative;
+top: 0;
+}
+
+.galeria {
+grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); 
+}
+
+.portadas {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+img {
+height: 200px;
+}
+}
+.tickets {
+font-size: 20px;
+padding-left: 100px;
+padding-right: 100px;
+}
+}

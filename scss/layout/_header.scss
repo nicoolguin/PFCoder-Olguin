@@ -1,0 +1,77 @@
+    body {
+    background: $fondo;
+    font-family: 'Indie Flower', cursive;
+    header {
+    background: $fondo;
+    width: 100%;
+    clear: both;
+    display: table;
+    margin: 0px;
+    }
+
+    header a img {
+    width: 100px;
+    float: left;
+    }
+    }
+
+    nav {
+    float: right;
+
+    ul li {
+    list-style: none;
+    margin-left: 25px;
+    float: left;
+    font-size: 23px;
+    padding: 0%;
+    a {
+    text-decoration: none;
+    color: $letras;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+    font-family: 'Indie Flower', cursive;
+    }
+    }
+    }
+
+    .menu {
+    width: 100%;
+    margin: auto;
+    ul li a {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    }
+    ul li a:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #c11230;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    }
+    ul li a:hover:before, ul li a:focus:before, ul li a:active:before {
+    left: 0;
+    right: 0;
+    }
+    }
+
+    .linea {
+    background: #ffffff;
+    height: 3px;
+    width: 100%;
+    display: block;
+    }

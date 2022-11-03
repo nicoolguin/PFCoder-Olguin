@@ -1,0 +1,25 @@
+.pie-pagina {
+width: 100%;
+background: $fondo;
+.grupo-1 {
+width: 100%;
+max-width: 1200px;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 50px;
+padding: 45px 0px;
+color: $letras;
+margin-bottom: 10px;
+text-align: center;
+}
+.grupo-2 {
+background-color: $fondo;
+padding: 15px 10px;
+text-align: center;
+color: $letras;
+small {
+font-size: 15px;
+}
+}
+}

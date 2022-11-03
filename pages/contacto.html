@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Kendrick, Lamar, Kendrick Lamar, Pagina no oficial">
     <title>Contacto</title>
-    <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../assets/img/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
     </style> 
 </head>
 
@@ -32,35 +34,30 @@
         </div>
     </header>
     <span class="linea"></span>
-    <div class="contenedor-contacto">
-        <div class="contacto">
-            <h2>CONTACTO</h2>
-            <br>
-            <p>
-                Me interesaria saber tu opinion sobre esta pagina, asi puedo saber que te gustaria que agregue, quite, cambie, etc.
-                Tu opinion me interesa.
-            </p>
+    <img class="logoh1 col-md-12" src="../assets/img/logo.png">
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <h2>Contacto</h2>
+            <p>Me interesaria saber tu opinion sobre esta pagina, asi puedo saber que te gustaria que agregue, quite, cambie, etc. Tu opinion me interesa.</p>
         </div>
-        <div class="caja">
-            <form action="">
-                <label>Nombre</label>
-                <br>
-                <input type="text" name="nombre">
-                <br>
-                <label>Email</label>
-                <br>
-                <input type="text" name="email">
-                <br>
-                <label id="msj">Mensaje</label>
-                <br>
-                <input type="text" name="mensaje">
-                <br>
-                <button>Enviar</button>
-            </form>
-        </div>
+        <form class="col-4">
+            <div class="mb-3">
+                <label for="name-input" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name-input">
+            </div>
+            <div class="mb-3">
+                <label for="email-input" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email-input">
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
     </div>
-
-
     <footer class="pie-pagina">
         <div class="grupo-1">
             <div></div>
@@ -70,6 +67,9 @@
             <small>&copy; 2022 <b>Nicolas Olguin</b> - Todos los Derechos Reservados.</small>
         </div>
     </footer>
+    <!--SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 </body>
 
 </html>
