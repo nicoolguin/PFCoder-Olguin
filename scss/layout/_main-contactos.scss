@@ -3,7 +3,15 @@ h1 {
     z-index: 2;
 }
 
-div .col-4 {
-    color: $letras;
+.col-4 {
+    z-index: 3;
     font-family: sans-serif;
+    color: $letras;
+}
+
+#hero2 {
+    min-height: 100vh;
+    position: relative;
     }
+
+

@@ -1,0 +1,26 @@
+@media (max-width: 544px) {
+nav ul li {
+font-size: 12px;
+}
+
+.menu {
+display: block;
+width: 100%;
+position: relative;
+top: 0;
+}
+
+.portadas {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+img {
+height: 200px;
+}
+}
+
+.tickets {
+    font-size: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+}

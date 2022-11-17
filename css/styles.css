@@ -104,7 +104,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 50%;
   margin: auto;
   font-size: 18px;
   position: relative;
@@ -296,15 +296,17 @@ video {
     transform: scaleX(1); }
 
 h1 {
+  color: #ffffff;
+  z-index: 2; }
+
+.col-4 {
+  z-index: 3;
+  font-family: sans-serif;
   color: #ffffff; }
 
-div .col-4 {
-  color: #ffffff;
-  font-family: sans-serif; }
-
-button {
-  background: rgba(255, 255, 255, 0.153);
-  color: black; }
+#hero2 {
+  min-height: 100vh;
+  position: relative; }
 
 @media (max-width: 576px) {
   nav ul li {
@@ -345,3 +347,21 @@ button {
     font-size: 20px;
     padding-left: 100px;
     padding-right: 100px; } }
+
+@media (max-width: 544px) {
+  nav ul li {
+    font-size: 12px; }
+  .menu {
+    display: block;
+    width: 100%;
+    position: relative;
+    top: 0; }
+  .portadas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    .portadas img {
+      height: 200px; }
+  .tickets {
+    font-size: 14px;
+    padding-left: 40px;
+    padding-right: 40px; } }
