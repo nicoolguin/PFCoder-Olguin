@@ -14,15 +14,7 @@ z-index: 2;
 }
 
 .logoh1 {
-z-index: 2;
-padding-top: 100px;
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 350px;
-margin: auto;
-position: relative;
+@include logoh1;
 }
 
 

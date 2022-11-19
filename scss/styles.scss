@@ -1,6 +1,7 @@
 @import "./base/reset";
 @import "./base/typo";
 @import "./utilities/variable";
+@import "./utilities/mixins";
 @import "./components/bootstrap";
 @import "./layout/header";
 @import "./layout/footer";
@@ -11,4 +12,4 @@
 @import "./layout/main-contactos";
 @import "./layout/media-mobile";
 @import "./layout/media-tablet";
-@import "./layout/media-smartphone"
+@import "./layout/media-smartphone";
